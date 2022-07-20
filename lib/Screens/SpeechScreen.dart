@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:speech_to_text/speech_to_text.dart' as stt;
 import 'package:avatar_glow/avatar_glow.dart';
-import 'package:speech_to_text_converter/Widgets/Widgets.dart';
 import 'package:translator/translator.dart';
+
+import '../Widgets/Widgets.dart';
 
 class SpeechScreen extends StatefulWidget {
   const SpeechScreen({Key? key}) : super(key: key);

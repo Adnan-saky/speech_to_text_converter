@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:speech_to_text_converter/Screens/SpeechScreen.dart';
+import 'Screens/SpeechScreen.dart';
 
 void main() {
   runApp(MyApp(),);
