@@ -15,7 +15,7 @@ class SpeechScreen extends StatefulWidget {
 class _SpeechScreenState extends State<SpeechScreen> {
   stt.SpeechToText? _speechToText;
   bool _isListening = false;
-  String _text = "...";
+  String _text = "";
 
   void listen() async {
     if (!_isListening) {
@@ -56,7 +56,7 @@ class _SpeechScreenState extends State<SpeechScreen> {
   @override
   void initState() {
     _speechToText = stt.SpeechToText();
-    _translatedText = "...";
+    _translatedText = "";
   }
   @override
   Widget build(BuildContext context) {
